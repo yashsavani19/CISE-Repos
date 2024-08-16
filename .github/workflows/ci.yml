@@ -25,48 +25,48 @@ jobs:
 
       - name: Install dependencies for my-react-app in worksheet1
         run: npm install
-        working-directory: ./worksheet1/my-react-app
+        working-directory: /worksheet1/my-react-app
 
       - name: Run the tests for my-react-app in worksheet1
         run: npm test
-        working-directory: ./worksheet1/my-react-app
+        working-directory: /worksheet1/my-react-app
 
       - name: Build my-react-app in worksheet1
         run: npm run build
-        working-directory: ./worksheet1/my-react-app
+        working-directory: /worksheet1/my-react-app
 
       - name: Install dependencies for my-react-app in worksheet2
         run: npm install
-        working-directory: ./worksheet2/my-react-app
+        working-directory: /worksheet2/my-react-app
 
       - name: Run the tests for my-react-app in worksheet2
         run: npm test
-        working-directory: ./worksheet2/my-react-app
+        working-directory: /worksheet2/my-react-app
 
       - name: Build my-react-app in worksheet2
         run: npm run build
-        working-directory: ./worksheet2/my-react-app
+        working-directory: /worksheet2/my-react-app
 
       - name: Install dependencies for my-nest-app in worksheet1
         run: npm install
-        working-directory: ./worksheet1/my-nest-project
+        working-directory: /worksheet1/my-nest-project
 
       - name: Run the tests for my-nest-app in worksheet1
         run: npm test
-        working-directory: ./worksheet1/my-nest-project
+        working-directory: /worksheet1/my-nest-project
 
       - name: Build my-nest-app in worksheet1
         run: npm run build
-        working-directory: ./worksheet1/my-nest-project
+        working-directory: /worksheet1/my-nest-project
 
       - name: Install dependencies for my-nest-app in worksheet2
         run: npm install
-        working-directory: ./worksheet2/my-nest-app
+        working-directory: /worksheet2/my-nest-app
 
       - name: Run the tests for my-nest-app in worksheet2
         run: npm test
-        working-directory: ./worksheet2/my-nest-app
+        working-directory: /worksheet2/my-nest-app
 
       - name: Build my-nest-app in worksheet2
         run: npm run build
-        working-directory: ./worksheet2/my-nest-app
+        working-directory: /worksheet2/my-nest-app
