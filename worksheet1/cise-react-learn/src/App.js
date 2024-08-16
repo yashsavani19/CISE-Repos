@@ -1,4 +1,5 @@
-import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
@@ -21,4 +22,4 @@ function App() {
   );
 }
 
-export default App;  // Ensure App is exported as default
+export default App;
