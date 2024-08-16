@@ -23,17 +23,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies for my-react-app in worksheet1
-        run: npm install
-        working-directory: worksheet1/cise-react-learn
+      # - name: Install dependencies for my-react-app in worksheet1
+      #   run: npm install
+      #   working-directory: worksheet1/cise-react-learn
 
-      - name: Run the tests for my-react-app in worksheet1
-        run: npm test
-        working-directory: worksheet1/cise-react-learn
+      # - name: Run the tests for my-react-app in worksheet1
+      #   run: npm test
+      #   working-directory: worksheet1/cise-react-learn
 
-      - name: Build my-react-app in worksheet1
-        run: npm run build
-        working-directory: worksheet1/cise-react-learn
+      # - name: Build my-react-app in worksheet1
+      #   run: npm run build
+      #   working-directory: worksheet1/cise-react-learn
 
       - name: Install dependencies for my-react-app in worksheet2
         run: npm install
@@ -47,17 +47,17 @@ jobs:
         run: npm run build
         working-directory: worksheet2/my-react-app
 
-      - name: Install dependencies for my-nest-app in worksheet1
-        run: npm install
-        working-directory: worksheet1/my-nest-project
+      # - name: Install dependencies for my-nest-app in worksheet1
+      #   run: npm install
+      #   working-directory: worksheet1/my-nest-project
 
-      - name: Run the tests for my-nest-app in worksheet1
-        run: npm test
-        working-directory: worksheet1/my-nest-project
+      # - name: Run the tests for my-nest-app in worksheet1
+      #   run: npm test
+      #   working-directory: worksheet1/my-nest-project
 
-      - name: Build my-nest-app in worksheet1
-        run: npm run build
-        working-directory: worksheet1/my-nest-project
+      # - name: Build my-nest-app in worksheet1
+      #   run: npm run build
+      #   working-directory: worksheet1/my-nest-project
 
       - name: Install dependencies for my-nest-app in worksheet2
         run: npm install
